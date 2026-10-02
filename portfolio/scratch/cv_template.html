@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Archana Kumari - Curriculum Vitae (CV)</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 10mm 12mm 10mm 12mm;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: #1a202c;
+      background: #ffffff;
+      line-height: 1.32;
+      font-size: 8.7pt;
+    }
+    a {
+      color: #1a365d;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 7px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid #2b6cb0;
+    }
+    .name {
+      font-size: 19pt;
+      font-weight: 800;
+      color: #1a202c;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      margin-bottom: 2px;
+    }
+    .cv-badge {
+      display: inline-block;
+      font-size: 7.5pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      background: #ebf8ff;
+      color: #2b6cb0;
+      border: 1px solid #bee3f8;
+      padding: 1px 8px;
+      border-radius: 10px;
+      margin-bottom: 4px;
+    }
+    .title {
+      font-size: 9.8pt;
+      font-weight: 600;
+      color: #2b6cb0;
+      margin-bottom: 4px;
+    }
+    .contact-info {
+      font-size: 8.3pt;
+      color: #4a5568;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .section {
+      margin-bottom: 7px;
+    }
+    .section-title {
+      font-size: 9.3pt;
+      font-weight: 700;
+      color: #2b6cb0;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      border-bottom: 1.2px solid #cbd5e0;
+      padding-bottom: 2px;
+      margin-bottom: 4px;
+    }
+    .summary-text {
+      font-size: 8.5pt;
+      color: #2d3748;
+      text-align: justify;
+      line-height: 1.34;
+    }
+    .skills-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 2.5px;
+      font-size: 8.3pt;
+    }
+    .skill-row {
+      display: flex;
+      line-height: 1.25;
+    }
+    .skill-cat {
+      font-weight: 700;
+      color: #1a202c;
+      width: 145px;
+      flex-shrink: 0;
+    }
+    .skill-items {
+      color: #2d3748;
+      flex: 1;
+    }
+    .exp-item {
+      margin-bottom: 6px;
+    }
+    .exp-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 1px;
+    }
+    .exp-role {
+      font-size: 9pt;
+      font-weight: 700;
+      color: #1a202c;
+    }
+    .exp-company {
+      font-weight: 600;
+      color: #2b6cb0;
+    }
+    .exp-location {
+      font-size: 8pt;
+      color: #718096;
+      font-weight: normal;
+    }
+    .exp-date {
+      font-size: 8.2pt;
+      font-weight: 600;
+      color: #4a5568;
+    }
+    ul.bullet-list {
+      margin-left: 14px;
+      margin-top: 2px;
+    }
+    ul.bullet-list li {
+      font-size: 8.3pt;
+      color: #2d3748;
+      margin-bottom: 2px;
+      line-height: 1.3;
+      text-align: justify;
+    }
+    ul.bullet-list li strong {
+      color: #1a202c;
+      font-weight: 600;
+    }
+    .page-break {
+      page-break-after: always;
+    }
+    .edu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: 8.5pt;
+      margin-bottom: 3px;
+    }
+    .edu-degree {
+      font-weight: 700;
+      color: #1a202c;
+    }
+    .edu-school {
+      color: #4a5568;
+    }
+    .edu-date {
+      font-size: 8.2pt;
+      font-weight: 600;
+      color: #4a5568;
+    }
+    .edu-details {
+      font-size: 8pt;
+      color: #4a5568;
+      margin-left: 2px;
+      margin-bottom: 3px;
+    }
+    .method-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 3px 12px;
+      font-size: 8.2pt;
+    }
+    .method-item {
+      color: #2d3748;
+    }
+    .method-item strong {
+      color: #1a202c;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ================= PAGE 1 ================= -->
+
+  <!-- Header -->
+  <div class="header">
+    <div class="name">Archana Kumari</div>
+    <div><span class="cv-badge">Curriculum Vitae</span></div>
+    <div class="title">Full-Stack Software Engineer · Python · Django · FastAPI · React · Next.js</div>
+    <div class="contact-info">
+      <span>Bangalore, India</span>
+      <span>•</span>
+      <span><a href="tel:+918340488397">+91-8340488397</a></span>
+      <span>•</span>
+      <span><a href="mailto:archanakumari.swe@gmail.com">archanakumari.swe@gmail.com</a></span>
+      <span>•</span>
+      <span><a href="https://github.com/Archana-PC">github.com/Archana-PC</a></span>
+      <span>•</span>
+      <span><a href="https://linkedin.com/in/archana-kumari">linkedin.com/in/archana-kumari</a></span>
+    </div>
+  </div>
+
+  <!-- Executive Profile -->
+  <div class="section">
+    <div class="section-title">Curriculum Vitae Profile & Engineering Philosophy</div>
+    <p class="summary-text">
+      <strong>Full-Stack Software Engineer</strong> with 2+ years of production experience architecting high-throughput, fault-tolerant web applications and distributed architectures. Demonstrated excellence in building enterprise platforms from scratch, including end-to-end <strong>E-Commerce management, real-time Inventory Management across 1,000+ SKUs, and retail POS billing systems</strong>. Deep expertise in backend asynchronous job processing (Celery & RabbitMQ pipelines processing 10,000+ daily jobs with 0% data loss), sub-120ms API latency optimization via Redis caching and PostgreSQL query indexing, multi-tenant SaaS schema isolation guaranteeing zero cross-tenant leakage, payment gateways (PhonePe), logistics tracking APIs (Ekart), and AI integration with the OpenAI API.
+    </p>
+  </div>
+
+  <!-- Technical Competencies Matrix -->
+  <div class="section">
+    <div class="section-title">Comprehensive Technical Competencies</div>
+    <div class="skills-grid">
+      <div class="skill-row">
+        <span class="skill-cat">Backend Architecture:</span>
+        <span class="skill-items">Python 3.x, Django, Django REST Framework, FastAPI, Node.js, Express.js, RESTful API Design</span>
+      </div>
+      <div class="skill-row">
+        <span class="skill-cat">Asynchronous & Queues:</span>
+        <span class="skill-items">Celery Distributed Task Queue, RabbitMQ Message Broker, Redis In-Memory Store & Cache, Pub/Sub</span>
+      </div>
+      <div class="skill-row">
+        <span class="skill-cat">Frontend Engineering:</span>
+        <span class="skill-items">React, Next.js (App Router/SSR), Redux Toolkit, RTK Query, JavaScript (ES6+), TypeScript, Tailwind CSS, Formik, Yup</span>
+      </div>
+      <div class="skill-row">
+        <span class="skill-cat">Databases & Storage:</span>
+        <span class="skill-items">PostgreSQL (Indexing, Constraints, REVOKE), MySQL, MongoDB, Firebase, Supabase, Cloudinary</span>
+      </div>
+      <div class="skill-row">
+        <span class="skill-cat">System Architecture:</span>
+        <span class="skill-items">Microservices, Event-Driven Architecture, Multi-Tenant SaaS Partitioning, Append-Only Ledgers, RBAC, JWT Auth</span>
+      </div>
+      <div class="skill-row">
+        <span class="skill-cat">DevOps & Tooling:</span>
+        <span class="skill-items">Docker, Docker Compose, Nginx Reverse Proxy, AWS (EC2, S3), GitHub Actions CI/CD, Git, Linux/Bash</span>
+      </div>
+      <div class="skill-row">
+        <span class="skill-cat">Third-Party & AI:</span>
+        <span class="skill-items">OpenAI API (Prompt Engineering, LLM Integration), PhonePe Payment Gateway, Ekart Logistics API</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Professional Work Experience -->
+  <div class="section">
+    <div class="section-title">Professional Work Experience</div>
+
+    <!-- Cloud Software Solution -->
+    <div class="exp-item">
+      <div class="exp-header">
+        <div>
+          <span class="exp-role">Full Stack Developer</span> · 
+          <span class="exp-company">Cloud Software Solution</span>
+          <span class="exp-location">· Bangalore, India</span>
+        </div>
+        <span class="exp-date">Nov 2025 – Present</span>
+      </div>
+      <ul class="bullet-list">
+        <li><strong>E-Commerce, Inventory & POS (Engineered from Scratch):</strong> Architected and built completely from scratch an enterprise E-Commerce management platform, real-time Inventory Management system, and POS billing engine (Django, Next.js) syncing live stock across <strong>1,000+ retail SKUs</strong> with automated order-to-dispatch workflows.</li>
+        <li><strong>High-Throughput Asynchronous Task Pipelines:</strong> Designed Celery + RabbitMQ distributed worker pipelines processing <strong>10,000+ daily background tasks</strong> (order notifications, stock updates, invoice generation, reconciliation) with <strong>zero message loss</strong>.</li>
+        <li><strong>Latency Optimization & Database Performance:</strong> Slashed API response times by <strong>40% (sub-120ms P95)</strong> by designing a multi-layer Redis caching strategy and optimizing PostgreSQL compound indexing and query execution plans.</li>
+        <li><strong>Franchise RBAC & Multi-Location Security:</strong> Built modular Franchise Management module and granular Role-Based Access Control (RBAC) ensuring secure, role-specific data access across multi-location franchise staff and store managers.</li>
+        <li><strong>Payment & Logistics Integrations:</strong> Integrated PhonePe payment gateway with idempotent webhook validation and automated reconciliation; integrated Ekart API for real-time parcel dispatch tracking and delivery visibility.</li>
+        <li><strong>Automated CI/CD Pipelines:</strong> Configured automated CI/CD pipelines via GitHub Actions and Docker, achieving consistent zero-downtime releases and automated containerized testing.</li>
+      </ul>
+    </div>
+
+    <!-- Comestro Pvt Ltd -->
+    <div class="exp-item">
+      <div class="exp-header">
+        <div>
+          <span class="exp-role">Software Engineer</span> · 
+          <span class="exp-company">Comestro Pvt Ltd</span>
+          <span class="exp-location">· India</span>
+        </div>
+        <span class="exp-date">Sept 2024 – Oct 2025</span>
+      </div>
+      <ul class="bullet-list">
+        <li><strong>Online Examination Engine:</strong> Spearheaded full-cycle development of an online examination platform (React + RTK Query) serving <strong>5,000+ concurrent students</strong> across 3 adaptive difficulty tiers with anti-cheating mechanisms and auto-submission timers.</li>
+        <li><strong>Multi-Tenant SaaS Architecture:</strong> Architected multi-tenant SaaS platform enforcing strict schema isolation, guaranteeing <strong>100% data partition integrity with zero cross-tenant leakage</strong>.</li>
+        <li><strong>Dynamic Form Architecture:</strong> Built 15+ complex dynamic forms with Formik + Yup schema validation, reducing form submission validation errors and support tickets by <strong>35%</strong>.</li>
+        <li><strong>Client Performance & Security:</strong> Implemented JWT authentication with role-based route guards; cut redundant API roundtrips by <strong>50%</strong> through RTK Query normalized caching.</li>
+      </ul>
+    </div>
+
+    <!-- Techjet.ai -->
+    <div class="exp-item">
+      <div class="exp-header">
+        <div>
+          <span class="exp-role">Full Stack Intern</span> · 
+          <span class="exp-company">Techjet.ai</span>
+          <span class="exp-location">· India</span>
+        </div>
+        <span class="exp-date">March 2024 – Aug 2024</span>
+      </div>
+      <ul class="bullet-list">
+        <li>Built secure full-stack authentication flows (protected routes, sessions, JWT) across a React + Django platform.</li>
+        <li>Integrated 10+ RESTful APIs and managed centralized application state using Redux Toolkit, decreasing code duplication by <strong>40%</strong>.</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- Page Break for Clean 2-Page CV -->
+  <div class="page-break"></div>
+
+  <!-- ================= PAGE 2 ================= -->
+
+  <!-- Running Header for Page 2 -->
+  <div class="header" style="margin-bottom: 8px;">
+    <div style="display: flex; justify-content: space-between; align-items: baseline;">
+      <span style="font-size: 11pt; font-weight: 800; color: #1a202c; text-transform: uppercase;">Archana Kumari · Curriculum Vitae</span>
+      <span style="font-size: 8.5pt; color: #4a5568;">archanakumari.swe@gmail.com · +91-8340488397</span>
+    </div>
+  </div>
+
+  <!-- Comprehensive Technical Projects Portfolio -->
+  <div class="section">
+    <div class="section-title">Major Technical Projects & System Architecture</div>
+
+    <!-- Project 1 -->
+    <div class="exp-item">
+      <div class="exp-header">
+        <div>
+          <span class="exp-role">AI Resume Screener & Candidate Intelligence Platform</span> · 
+          <a href="https://github.com/Archana-PC/docsense-ai" class="exp-company">github.com/Archana-PC/docsense-ai</a>
+        </div>
+        <span class="exp-date">Django, FastAPI, React, Celery, Redis, OpenAI API, PostgreSQL, Docker</span>
+      </div>
+      <ul class="bullet-list">
+        <li>Engineered a 4-service microservices application that automatically parses PDF resumes, extracts competencies, and ranks candidates against job descriptions using the OpenAI API.</li>
+        <li>Architected asynchronous processing pipeline (PDF parser → Celery worker + Redis queue → AI scorer → PostgreSQL) preventing thread blocking during heavy document processing.</li>
+        <li>Crafted optimized prompt engineering schemas for deterministic scoring matrices and structured JSON outputs.</li>
+        <li>Containerized the full stack with Docker Compose and healthcheck probes for reliable single-command deployment.</li>
+      </ul>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="exp-item">
+      <div class="exp-header">
+        <div>
+          <span class="exp-role">Brahmo Data Integrity — Append-Only Knowledge Graph</span> · 
+          <a href="https://github.com/Archana-PC/brahmo-data-integrity" class="exp-company">github.com/Archana-PC/brahmo-data-integrity</a>
+        </div>
+        <span class="exp-date">Python 3.11, FastAPI, Supabase, PostgreSQL, React, Vite</span>
+      </div>
+      <ul class="bullet-list">
+        <li>Developed an append-only medical knowledge graph enforcing PostgreSQL database-level REVOKE permissions to guarantee tamper-proof audit trails against unauthorized UPDATE/DELETE operations.</li>
+        <li>Engineered temporal SUPERSEDE node relationships for clinical history preservation, ensuring historical state reconstruction without data mutation.</li>
+        <li>Built an interactive React/Vite graph explorer interface querying complex relational nodes with sub-50ms latency.</li>
+        <li>Implemented verification test suites validating rollback resilience and unauthorized mutation prevention.</li>
+      </ul>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="exp-item">
+      <div class="exp-header">
+        <div>
+          <span class="exp-role">AuraCommerce — Enterprise E-Commerce, POS & Inventory Platform</span> · 
+          <a href="https://github.com/Archana-PC" class="exp-company">github.com/Archana-PC</a>
+        </div>
+        <span class="exp-date">Django, Next.js, Celery, RabbitMQ, Redis, PostgreSQL, PhonePe, Ekart API</span>
+      </div>
+      <ul class="bullet-list">
+        <li>Architected and built completely from scratch an end-to-end commerce system managing live stock across 1,000+ retail SKUs and multi-location franchises.</li>
+        <li>Implemented automated order-to-dispatch workflows with idempotent PhonePe payment webhooks and live Ekart tracking APIs.</li>
+        <li>Designed multi-layer Redis caching strategy slashing catalog and checkout API response times by 40% (sub-120ms P95).</li>
+      </ul>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="exp-item">
+      <div class="exp-header">
+        <div>
+          <span class="exp-role">StreamCore — Video Streaming & Transcoding Backend</span> · 
+          <a href="https://github.com/Archana-PC/backend_javascript" class="exp-company">github.com/Archana-PC/backend_javascript</a>
+        </div>
+        <span class="exp-date">Node.js, Express.js, MongoDB, Mongoose, JWT Auth, Cloudinary, Multer</span>
+      </div>
+      <ul class="bullet-list">
+        <li>Architected RESTful microservices for chunked video ingestion, watch history tracking, and user channel subscriptions.</li>
+        <li>Engineered complex MongoDB aggregation pipelines for high-throughput pagination, search, and recommendation feeds.</li>
+        <li>Secured API endpoints with HMAC SHA-256 JWT refresh/access token rotation and bcrypt password hashing.</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- Education & Academic Background -->
+  <div class="section">
+    <div class="section-title">Education & Academic Credentials</div>
+
+    <div class="edu-item">
+      <div>
+        <span class="edu-degree">Master of Computer Applications (MCA)</span> · 
+        <span class="edu-school">Presidency College, Bangalore</span>
+      </div>
+      <span class="edu-date">2021 – 2022</span>
+    </div>
+    <div class="edu-details">
+      <em>Core Focus:</em> Distributed Systems, Advanced Database Management Systems, Object-Oriented Software Design, Cloud Architecture, Enterprise Web Applications.
+    </div>
+
+    <div class="edu-item" style="margin-top: 4px;">
+      <div>
+        <span class="edu-degree">Bachelor of Computer Applications (BCA)</span> · 
+        <span class="edu-school">Purnea College, Purnea</span>
+      </div>
+      <span class="edu-date">2016 – 2020</span>
+    </div>
+    <div class="edu-details">
+      <em>Core Focus:</em> Data Structures & Algorithms, Relational Database Design, Operating Systems, Computer Networks, Systems Programming.
+    </div>
+  </div>
+
+  <!-- Core Engineering Methodologies -->
+  <div class="section" style="margin-bottom: 0;">
+    <div class="section-title">Engineering Methodologies & Core Standards</div>
+    <div class="method-grid">
+      <div class="method-item">
+        <strong>Architecture:</strong> Microservices, Event-Driven, Distributed Queues, Multi-Tenant SaaS
+      </div>
+      <div class="method-item">
+        <strong>Data Integrity:</strong> Append-Only Auditing, ACID Transactions, Compound Indexing
+      </div>
+      <div class="method-item">
+        <strong>Quality & Testing:</strong> Unit/Integration Testing, CI/CD GitHub Actions, Dockerized Environments
+      </div>
+      <div class="method-item">
+        <strong>Performance:</strong> Sub-120ms P95 Latency, Redis Layered Caching, RTK Query Normalization
+      </div>
+      <div class="method-item">
+        <strong>Security & Auth:</strong> JWT Token Rotation, Role-Based Access Control (RBAC), Idempotency
+      </div>
+      <div class="method-item">
+        <strong>Collaboration:</strong> Agile / Scrum, Code Reviews, Git Flow, API Contract Documentation
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
